@@ -10,9 +10,12 @@ public class Student {
 	
 	public Student(String name, int age, String address) {
 		super();
+		//this = 100
 		this.name = name;
 		this.age = age;
 		this.address = address;
+		
+		System.out.println("name in this object is "+this.name);
 	}
 	
 	
