@@ -17,6 +17,9 @@ public class Student {
 		
 		System.out.println("name in this object is "+this.name);
 	}
+	{this.age = 18;}
+	public Student() {
+	}
 	
 	
 
