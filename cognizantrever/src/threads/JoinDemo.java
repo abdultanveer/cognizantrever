@@ -4,8 +4,11 @@ public class JoinDemo {
 
 	public static void main(String[] args) {
 		Collegue collegue1 = new Collegue();
+		collegue1.setName("ameri");
 		Collegue collegue2 = new Collegue();
-		Collegue collegue3 = new Collegue();
+		collegue2.setName("jeorge");
+		Collegue collegue3 = new Collegue("martins");
+		
 		
 		collegue1.start();
 		
